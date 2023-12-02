@@ -1,0 +1,17 @@
+D:\Labs\Lab312\task1\RazorServices\bin\Debug\net6.0\RazorServices.deps.json
+D:\Labs\Lab312\task1\RazorServices\bin\Debug\net6.0\RazorServices.runtimeconfig.json
+D:\Labs\Lab312\task1\RazorServices\bin\Debug\net6.0\RazorServices.dll
+D:\Labs\Lab312\task1\RazorServices\bin\Debug\net6.0\RazorServices.pdb
+D:\Labs\Lab312\task1\RazorServices\bin\Debug\net6.0\RazorModels.dll
+D:\Labs\Lab312\task1\RazorServices\bin\Debug\net6.0\RazorModels.pdb
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.csproj.AssemblyReference.cache
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.AssemblyInfoInputs.cache
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.AssemblyInfo.cs
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.csproj.CoreCompileInputs.cache
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.csproj.CopyComplete
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.dll
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\refint\RazorServices.dll
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.pdb
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\RazorServices.genruntimeconfig.cache
+D:\Labs\Lab312\task1\RazorServices\obj\Debug\net6.0\ref\RazorServices.dll

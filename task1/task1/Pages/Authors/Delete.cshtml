@@ -1,0 +1,10 @@
+﻿@page "{id}"
+@model WebServer.Pages.Authors.DeleteModel
+@{
+}
+
+<h1>Delete author @Model.Author.AuthorId</h1>
+<form method="post">
+    <button type="submit">Yes</button>
+    <a asp-page="/Authors/Authors">No</a>
+</form>

@@ -1,0 +1,19 @@
+﻿@page "{id:min(1)?}"
+@model WebServer.Pages.Staties.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="mt-4">Try to edit Statie</h1>
+
+<form class="mt-4" method="post">
+    <input type="hidden" asp-for="Statie.StatieId" />
+    <div class="form-group mt-2">
+        <label asp-for="Statie.StatieId">Edit Statie ID:</label>
+        <input class="form-control" asp-for="Statie.StatieId" placeholder="@Model.Statie.StatieId" />
+    </div>
+    <div class="form-row mt-2">
+        <button type="submit" class="btn btn-primary">Update</button>
+        <a class="btn btn-secondary ml-2" asp-page="/Staties/Staties">Cancel</a>
+    </div>
+</form>

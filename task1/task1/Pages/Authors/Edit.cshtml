@@ -1,0 +1,19 @@
+﻿@page "{id:min(1)?}"
+@model WebServer.Pages.Authors.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Author!</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Author.AuthorId" />
+    <div class="passEditRowName">
+        <label asp-for="Author.Name">Edit name: </label>
+        <input asp-for="Author.Name" placeholder="@Model.Author.Name" />
+    </div>
+    <div class="row">
+        <button type="submit">Update</button>
+        <a asp-page="/Authors/Authors">Cancel</a>
+    </div>
+</form>

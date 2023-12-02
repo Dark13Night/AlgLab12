@@ -1,0 +1,19 @@
+﻿@page
+@model WebServer.Pages.Authors.AuthorsModel
+@{
+}
+
+<h1>Author!</h1>
+
+<a asp-page="/Authors/Authors" class="createAuthor">Add author</a>
+
+<div class="row">
+    @foreach (var item in Model.Authors)
+    {
+        <div class="pass">
+            <div class="name">@item.Name</div>
+            <div class="update"><a asp-page="/Authors/Edit" asp-route-Id="@item.AuthorId">Update</a></div>
+            <div class="delete"><a asp-page="/Authors/Delete" asp-route-Id="@item.AuthorId">Delete</a></div>
+        </div>
+    }
+</div>

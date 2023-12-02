@@ -1,0 +1,11 @@
+D:\Labs\Lab312\task1\RazorModels\bin\Debug\net6.0\RazorModels.deps.json
+D:\Labs\Lab312\task1\RazorModels\bin\Debug\net6.0\RazorModels.dll
+D:\Labs\Lab312\task1\RazorModels\bin\Debug\net6.0\RazorModels.pdb
+D:\Labs\Lab312\task1\RazorModels\obj\Debug\net6.0\RazorModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Labs\Lab312\task1\RazorModels\obj\Debug\net6.0\RazorModels.AssemblyInfoInputs.cache
+D:\Labs\Lab312\task1\RazorModels\obj\Debug\net6.0\RazorModels.AssemblyInfo.cs
+D:\Labs\Lab312\task1\RazorModels\obj\Debug\net6.0\RazorModels.csproj.CoreCompileInputs.cache
+D:\Labs\Lab312\task1\RazorModels\obj\Debug\net6.0\RazorModels.dll
+D:\Labs\Lab312\task1\RazorModels\obj\Debug\net6.0\refint\RazorModels.dll
+D:\Labs\Lab312\task1\RazorModels\obj\Debug\net6.0\RazorModels.pdb
+D:\Labs\Lab312\task1\RazorModels\obj\Debug\net6.0\ref\RazorModels.dll

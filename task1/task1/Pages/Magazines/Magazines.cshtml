@@ -1,0 +1,24 @@
+﻿@page
+@model WebServer.Pages.Magazines.MagazinesModel
+@{
+}
+
+<h1 class="mt-4">Discover Our Magazines</h1>
+
+<div class="row mt-4">
+    @foreach (var item in Model.Magazines)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Magazine ID: @item.MagazineId</h5>
+                    <p class="card-text">Some additional information about the medicine.</p>
+                    <div class="btn-group" role="group" aria-label="Medicine Actions">
+                        <a class="btn btn-primary" href="@Url.Page("/Medicines/Edit", new { Id = item.MagazineId })">Update</a>
+                        <a class="btn btn-danger" href="@Url.Page("/Medicines/Delete", new { Id = item.MagazineId })">Don't click</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

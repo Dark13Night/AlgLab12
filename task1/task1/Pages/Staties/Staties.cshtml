@@ -1,0 +1,26 @@
+﻿@page
+@model WebServer.Pages.Staties.StatiesModel
+@{
+}
+
+<h1 class="mt-4">Damn, my Staties</h1>
+
+<div class="row mt-4">
+    @foreach (var item in Model.Staties)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Statie ID: @item.StatieId</h5>
+                    <h5 class="card-title">Magazine ID: @item.MagazineId</h5>
+                    <h5 class="card-title">Author ID: @item.AuthorId</h5>
+                    <p class="card-text">Some additional information about the Statie.</p>
+                    <div class="btn-group" role="group" aria-label="Statie Actions">
+                        <a class="btn btn-primary" href="@Url.Page("/Staties/Edit", new { Id = item.StatieId })">Update</a>
+                        <a class="btn btn-danger" href="@Url.Page("/Staties/Delete", new { Id = item.StatieId })">Nooooo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
